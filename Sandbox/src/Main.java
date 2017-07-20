@@ -7,8 +7,9 @@ public class Main {
 		Cat cat = new Cat("Garfield");
 		System.out.println(cat.name()); // Output: Garfield
 		
-		Circle circle = new Circle();
-		circle.draw();
-		
+		Shape shape = new Circle();
+		shape.draw(); // Output: I am a circle.
+		shape = new Rectangle();
+		shape.draw(); // Output: I am a rectangle.
 	   }
 }

@@ -7,5 +7,8 @@ public class Main {
 		Cat cat = new Cat("Garfield");
 		System.out.println(cat.name()); // Output: Garfield
 		
+		Circle circle = new Circle();
+		circle.draw();
+		
 	   }
 }
